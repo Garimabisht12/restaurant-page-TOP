@@ -19,7 +19,6 @@ nav.addEventListener("click", (e) => {
   } else if (e.target.id === "menu") {
     content.classList.add("menu-content");
     content.classList.remove("contact-content");
-
     Menu();
   } else if (e.target.id === "contact") {
     content.classList.remove("menu-content");
