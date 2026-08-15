@@ -1,0 +1,36 @@
+#content #hero {
+  height: 100vh;
+  width: auto;
+
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(https://images.unsplash.com/photo-1619761216688-ea2d527813dd?q=80&w=754&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding-top: 16rem;
+  color: white;
+}
+
+h1 {
+  width: 100%;
+  font-size: 4rem;
+}
+
+#hero p {
+  font-size: 1.6rem;
+  padding: 0 24rem;
+}
+
+#hero button {
+  margin-top: 1.6rem;
+  padding: 0.5rem 4rem;
+  border: none;
+  background-color: #233a03;
+  box-shadow: 2px 2px 10px #b8ad1e;
+  /* border-bottom: 2px solid #b8ad1e;
+  border-right: 2px solid #b8ad1e; */
+  color: white;
+  font-size: 2rem;
+}

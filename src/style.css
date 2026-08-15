@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  display: flex;
+  padding: 1rem;
+  justify-content: space-evenly;
+  background-color: rgba(36, 36, 34, 0.315);
+}
+
+nav button {
+  padding: 10px 44px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+nav button:hover {
+  border-bottom: 2px solid goldenrod;
+  font-size: 1.4rem;
+}
